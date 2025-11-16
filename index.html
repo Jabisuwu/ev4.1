@@ -1,24 +1,170 @@
-<section>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Soluciones TI que Transforman</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="overlay">
+      <h1>Soluciones TI que Transforman</h1>
+      <p>Innovación, ética y mejora continua en tecnología</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#productos">Productos</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#blog">Blog</a>
+    <a href="#testimonios">Testimonios</a>
+    <a href="#faq">FAQ</a>
+    <a href="#frase">Frase</a>
+    <a href="#contador">Visitas</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="mensaje">
+    <div id="mensaje-bienvenida" class="card"></div>
+  </section>
+
+  <section id="nosotros">
+    <h2>Nosotros</h2>
+    <div class="card">
+      <p>Somos una iniciativa académica que promueve el uso estratégico de productos y servicios de TI actuales. Aplicamos metodologías como el modelo Canvas y principios ITIL para diseñar soluciones reales, éticas y sostenibles.</p>
+      <button onclick="toggleInfo()">Mostrar más información</button>
+      <div id="info-extra" style="display:none;" class="card">
+        <p>Aplicamos buenas prácticas internacionales, valores institucionales y metodologías como ITIL y Canvas para diseñar soluciones reales y sostenibles.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="productos">
   <h2>Productos TI</h2>
-  <ul>
-    <li><strong>Microsoft Azure:</strong> Plataforma de servicios en la nube.</li>
-    <li><strong>ChatGPT Enterprise:</strong> Asistente de IA para empresas.</li>
-    <li><strong>Shopify:</strong> Comercio digital con tiendas en línea.</li>
-  </ul>
+  <div class="productos-lista">
+    <div class="producto-card">
+      <div class="producto-icono">☁️</div>
+      <div class="producto-info">
+        <h3>Microsoft Azure</h3>
+        <p>Servicios en la nube para desarrollo, análisis y escalabilidad empresarial.</p>
+      </div>
+    </div>
+    <div class="producto-card alterno">
+      <div class="producto-icono">🤖</div>
+      <div class="producto-info">
+        <h3>ChatGPT Enterprise</h3>
+        <p>IA para productividad, automatización y soporte técnico avanzado.</p>
+      </div>
+    </div>
+    <div class="producto-card">
+      <div class="producto-icono">🛒</div>
+      <div class="producto-info">
+        <h3>Shopify</h3>
+        <p>Comercio electrónico con herramientas integradas para tiendas digitales.</p>
+      </div>
+    </div>
+    <div class="producto-card alterno">
+      <div class="producto-icono">📁</div>
+      <div class="producto-info">
+        <h3>Google Workspace</h3>
+        <p>Colaboración en la nube: Gmail, Drive, Meet, Docs y más.</p>
+      </div>
+    </div>
+    <div class="producto-card">
+      <div class="producto-icono">📊</div>
+      <div class="producto-info">
+        <h3>Salesforce CRM</h3>
+        <p>Gestión de relaciones con clientes y automatización de ventas.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section>
-  <h2>Servicios TI</h2>
-  <ul>
-    <li>Consultoría tecnológica</li>
-    <li>Desarrollo web</li>
-    <li>Ciberseguridad</li>
-    <li>Soporte técnico</li>
-  </ul>
-</section>
+  <section id="servicios">
+    <h2>Servicios TI</h2>
+    <div class="card">
+      <ul>
+        <li>🔧 Consultoría tecnológica para pymes</li>
+        <li>🌐 Desarrollo web responsivo</li>
+        <li>🛡️ Ciberseguridad y protección de datos</li>
+        <li>📊 Integración de IA en procesos empresariales</li>
+        <li>🧩 Soporte técnico remoto y presencial</li>
+      </ul>
+    </div>
+  </section>
 
-<section>
-  <h2>Contacto</h2>
-  <p>Correo: contacto@solucionesti.edu.mx</p>
-  <p>Redes: @SolucionesTI_UANL</p>
-</section>
+  <section id="blog">
+    <h2>Blog / Noticias</h2>
+    <div class="card">
+      <p><strong>📈 Tendencias TI 2025:</strong> La IA y la automatización lideran la transformación digital.</p>
+      <p><strong>🚀 Caso de éxito:</strong> Una pyme aumentó su eficiencia un 40% al migrar a la nube.</p>
+      <p><strong>🧠 Reflexión:</strong> El modelo Canvas permite visualizar el negocio como un sistema estratégico.</p>
+    </div>
+  </section>
+
+  <section id="testimonios">
+    <h2>Testimonios</h2>
+    <div class="card">
+      <blockquote>
+        “Gracias a estas soluciones TI, nuestra empresa logró automatizar procesos clave en solo 3 meses.”
+        <footer>— Laura Méndez, CEO de TechNova</footer>
+      </blockquote>
+      <blockquote>
+        “El enfoque ético y estratégico de este proyecto es justo lo que necesita el sector educativo.”
+        <footer>— Dr. Javier Ríos, Consultor Académico</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>Preguntas Frecuentes</h2>
+    <div class="card">
+      <details>
+        <summary>¿Qué es una solución TI?</summary>
+        <p>Es una herramienta tecnológica que resuelve una necesidad específica en una organización.</p>
+      </details>
+      <details>
+        <summary>¿Qué es el modelo Canvas?</summary>
+        <p>Es una metodología visual para diseñar modelos de negocio, compuesta por 9 bloques clave.</p>
+      </details>
+      <details>
+        <summary>¿Qué servicios ofrece esta página?</summary>
+        <p>Presentación académica de productos y servicios TI, con enfoque en comercialización digital.</p>
+      </details>
+    </div>
+  </section>
+
+  <section id="frase">
+    <h2>Frase del día</h2>
+    <div id="frase-inspiradora" class="card"></div>
+  </section>
+
+  <section id="contador">
+    <h2>Visitas</h2>
+    <div class="card">
+      <p>👁️ Esta página ha sido visitada <span id="visitas">0</span> veces (simulado).</p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form id="formulario-contacto" class="card">
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+      <label for="correo">Correo electrónico:</label><br>
+      <input type="email" id="correo" name="correo" required><br><br>
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="mensaje-formulario" class="card"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 Soluciones TI Académicas | Proyecto UANL</p>
+  </footer>
+
+</body>
+</html>
